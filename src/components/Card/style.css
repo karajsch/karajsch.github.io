@@ -1,0 +1,23 @@
+.tools {
+  font-family:Monaco;
+  font-weight:bolder;
+  font-size:100%;
+}
+
+.card {
+  border:solid black 1px;
+}
+
+.card-text {
+  font-size:100%;
+}
+
+.card-link {
+  font-family:Monaco;
+  font-weight:bolder;
+  font-size:100%;
+}
+
+h2.card-header {
+  background:rgb(247, 247, 247);
+}
