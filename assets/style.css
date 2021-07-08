@@ -99,7 +99,7 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: var(--font-color);
+  color: var(--font-color) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
