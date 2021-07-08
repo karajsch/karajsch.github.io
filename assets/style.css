@@ -99,7 +99,11 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: var(--font-color) !important;
+  color: var(--font-color);
+}
+
+.navbar-toggler {
+  background-color: cornflowerblue;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
