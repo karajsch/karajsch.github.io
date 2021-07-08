@@ -38,7 +38,7 @@
                         <a class="nav-link" href="web.html">Web</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html"><u>Contact</u></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -47,19 +47,63 @@
             </div>
         </nav>
         <!--Navbar End-->
-        <main>
-            <section class="theme-switch-wrapper float-right mt-2">
-                <label class="theme-switch" for="checkbox">
-                    <input type="checkbox" id="checkbox" />
-                    <div class="slider round"></div>
-                </label>
-                <div><i class="fas fa-moon ml-2 mr-2"></i></div>
-            </section>
-            <section class="container-fluid p-5">
-                <p class="display-1">Hello!</p>
-                <p class="display-4">My name is Kara Schmidt and I am a creative designer of web and print.</p>
-            </section>
 
+        <!--Contact Start-->
+        <p class="extra-space" id="contact"></p>
+        <section class="container-fluid mb-5" id="contact">
+            <h1 class="mb-3">Contact</h1>
+            <p>Feel free to send me a message via the contact form below, or you can just email me directly.</p>
+            <section class="row">
+                <section class="col-lg-4 col-sm-6 mb-4">
+                    <form action="https://formspree.io/f/mjvpprqy" method="POST"
+                        class="contact-form d-flex flex-column align-items-left">
+                        Your Name
+                        <div class="form-group w-100">
+                            <input type="text" class="form-control" name="name" placeholder="First and last name"
+                                required />
+                        </div>
+                        Your Email Aliress
+                        <div class="form-group w-100">
+                            <input type="email" class="form-control" name="_replyto" placeholder="name @ example.com"
+                                required />
+                        </div>
+                        Your Message
+                        <div class="form-group w-100">
+                            <textarea name="message" class="form-control" placeholder="Hello!" rows="10"
+                                required /></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-send">Send Message</button>
+                    </form>
+                </section>
+
+                <section class="col-lg-4 col-sm-6 mb-4">
+                    <section class="aside p-4 mt-4">
+                        <h2>Kara Schmidt</h2>
+                        <p><i class="fas fa-envelope-open"></i> <a href="mailto: karaiscoding@gmail.com">karaiscoding @
+                                gmail.com</a> <br>
+                            <i class="fas fa-mobile-alt"></i> (267) 702.6576 <br>
+                            <i class="fas fa-map-marker-alt"></i> Philadelphia, PA <br>
+                        </p>
+
+                    </section>
+                    <p class="mt-5">
+                        <ul style="list-style-type:none">
+                            <li>ᕯ This site was made with HTML5/CSS and Bootstrap.</li>
+                            <li>ᕯ Dark mode toggler is made with
+                                JavaScript. </li>
+                            <li>ᕯ The
+                                icons are
+                                from <a href="https://fontawesome.com/" target="_new">Font Awesome</a>. </li>
+                            <li>ᕯ The
+                                fonts are Proza Libre and Rubik.
+                            <li>ᕯ The form is made with <a href="https://formspree.io/" target="_new">Formspree</a>.
+                            </li>
+                        </ul>
+                    </p>
+                </section>
+            </section>
+        </section>
+        <!--Contact End-->
         </main>
         <section class="footer p-3 text-center">
 
