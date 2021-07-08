@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&family=Rubik&display=swap" rel="stylesheet">
     <!--Native CSS-->
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="imgs/favicon.ico" />
 </head>
 <!--Font Awesome-->
 <script src="https://kit.fontawesome.com/82ef6d5fbe.js" crossorigin="anonymous"></script>
@@ -21,7 +22,6 @@
     <!--Navbar Start-->
     <section class="container p-0" id="biggest">
         <nav class="navbar navbar-expand-lg navbar-dark p-2">
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,6 @@
                 </label>
                 <div><i class="fas fa-moon ml-2 mr-2"></i></div>
             </section>
-
             <p class="extra-space" id="portfolio"></p>
             <section class="container-fluid" id="portfolio">
                 <h1 class="mb-3">Projects for Web</h1>
@@ -108,7 +107,6 @@
                                 <h6 class="card-subtitle text-muted">HTML, CSS/Bootstrap, Handlebars, JavaScript,
                                     Node.js,
                                     Express.js, React</h6>
-
                                 <hr>
                                 <p class="card-text">This simple application is an employee directory app populated
                                     with randomized users via Random User Generator. User Directory uses React to
@@ -136,7 +134,6 @@
                                     Node.js,
                                     Express.js, MongoDB, Mongo,
                                     Heroku </h6>
-
                                 <hr>
                                 <p class="card-text">Budget Tracker is a progressive web application that saves your
                                     total balance regardless of whether you have an internet connection. Budget
@@ -165,7 +162,6 @@
                                     Node.js,
                                     Express.js, MySql,
                                     Heroku, Passport/Bcrypt </h6>
-
                                 <hr>
                                 <p class="card-text">Dungeon Master Manager (DMM) is a full stack application
                                     powered by
@@ -186,7 +182,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!--burger-->
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card h-100">
@@ -205,7 +200,6 @@
                                     Node.js,
                                     Express.js, MySql,
                                     Heroku </h6>
-
                                 <hr>
                                 <p class="card-text">Eat-Da-Burger is a burger logging app powered by MySQL, Node,
                                     Express, and Handlebars! Burgers appear in the left area from you to choose
@@ -221,7 +215,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!--plant scout-->
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card h-100">
@@ -239,7 +232,6 @@
                                     Bootstrap,
                                     GoogleFonts, Trefle
                                     API, Open Weather API, </h6>
-
                                 <hr>
                                 <p class="card-text">Plant Scout is an app made in collaboration with Gregory
                                     Leighton and Tamira Bell which encourages people to go outside and
@@ -252,7 +244,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!--day planner-->
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card h-100">
@@ -309,11 +300,7 @@
                     </div>
                 </section>
             </section>
-
         </main>
-        <section class="footer p-3 text-center">
-
-        </section>
     </section>
 </body>
 <!--Dark Mode Toggle Start-->
@@ -327,7 +314,6 @@
             document.documentElement.setAttribute('data-theme', 'light');
         }
     }
-
     toggleSwitch.addEventListener('change', switchTheme, false);
 
     function switchTheme(e) {
@@ -339,12 +325,9 @@
             localStorage.setItem('theme', 'light'); //ali this
         }
     }
-
     const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
-
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
-
         if (currentTheme === 'dark') {
             toggleSwitch.checked = true;
         }
