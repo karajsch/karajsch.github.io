@@ -18,7 +18,7 @@ body {
   background-color: var(--bg-color);
   color: var(--font-color);
   transition: background-color 0.2s;
-  font-family: "Proza Libre", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   line-height: 24px;
   margin-top: 5%;
@@ -37,18 +37,23 @@ p {
 }
 
 .btn {
-  background: var(--heading-color);
-  color: var(--bg-color);
+  background: cornflowerblue;
+  color: black;
   padding: 20px;
 }
 
 .btn:hover {
-  color: var(--secondary-color);
+  background: rgb(100, 149, 237);
+  background: linear-gradient(
+    240deg,
+    rgba(100, 149, 237, 1) 0%,
+    rgba(196, 215, 247, 1) 100%
+  );
+  transition: 0.3s;
 }
 
 h1 {
   color: var(--heading-color);
-  font-family: "Rubik", sans-serif;
   font-size: 48px;
   border-bottom: 1px solid var(--font-color);
   padding-left: 10px;
@@ -57,7 +62,6 @@ h1 {
 
 h2 {
   color: var(--secondary-color);
-  font-family: "Rubik", sans-serif;
   font-size: 30px;
 }
 
@@ -67,14 +71,12 @@ h6 {
 
 a {
   color: var(--primary-color);
-  font-family: "Rubik", sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 a:hover {
   color: var(--primary-color);
-  font-family: "Rubik", sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
   text-decoration: underline;
@@ -93,7 +95,6 @@ a:hover {
 }
 
 .navbar {
-  font-family: "Rubik", sans-serif;
   background: var(--bg-color);
   font-weight: bold;
   letter-spacing: 1px;
