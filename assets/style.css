@@ -21,7 +21,10 @@ body {
   font-family: "Proza Libre", sans-serif;
   font-size: 20px;
   line-height: 24px;
-  margin: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .responsive {
