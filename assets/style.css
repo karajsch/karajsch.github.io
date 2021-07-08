@@ -116,6 +116,8 @@ a:hover {
 
 #biggest {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 hr {
