@@ -67,10 +67,16 @@ h6 {
 
 a {
   color: var(--primary-color);
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 a:hover {
   color: var(--primary-color);
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
   text-decoration: underline;
   text-decoration-color: cornflowerblue;
   text-decoration-style: solid;
