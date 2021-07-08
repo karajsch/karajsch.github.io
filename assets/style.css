@@ -24,24 +24,6 @@ body {
   margin: auto;
 }
 
-.row {
-  -moz-column-width: 18em;
-  -webkit-column-width: 18em;
-  -moz-column-gap: 1em;
-  -webkit-column-gap: 1em;
-}
-
-.item {
-  display: inline-block;
-  padding: 0.25rem;
-  width: 100%;
-}
-
-.well {
-  position: relative;
-  display: block;
-}
-
 .responsive {
   height: 20vw;
   width: auto;
