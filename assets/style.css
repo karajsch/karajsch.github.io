@@ -162,7 +162,8 @@ input:focus {
 
 .aside {
   border-radius: 10px;
-  background-color: rgba(100, 148, 237, 0.308);
+  background-color: rgba(100, 148, 237, 0.09);
+  font-size: 80%;
 }
 
 .theme-switch-wrapper {
