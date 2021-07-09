@@ -143,7 +143,6 @@ textarea:focus,
 input:focus {
   background: var(--bg-color);
   color: var(--font-color);
-  font-family: menlo;
 }
 
 * {
@@ -163,8 +162,7 @@ input:focus {
 
 .aside {
   border-radius: 10px;
-  border: solid var(--primary-color) 1px;
-  background: transparent;
+  background-color: rgba(100, 148, 237, 0.308);
 }
 
 .theme-switch-wrapper {
