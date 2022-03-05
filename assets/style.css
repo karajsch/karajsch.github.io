@@ -1,5 +1,5 @@
 body {
-  background: rgb(0, 29, 125);
+  background: #030d2d;
   color: #efefef;
 }
 
@@ -8,25 +8,50 @@ body {
   height: 40vw;
   background: rgb(149, 0, 255);
   background: linear-gradient(
-    0deg,
+    90deg,
     rgba(149, 0, 255, 0) 50%,
-    rgba(255, 0, 241, 0.5) 66.6%,
-    rgba(255, 124, 0, 1) 83.2%,
-    rgba(254, 255, 0, 1) 100%
+    rgb(0 149 255 / 50%) 66.6%,
+    #ffa300 83.2%,
+    rgb(255 0 153) 100%
   );
   position: absolute;
+  border-left: 5px solid #efefef;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   left: 50%;
   border-radius: 50%;
-  /* border-top: 1px solid #efefef; */
+}
+
+#headline {
+  width: 50%;
+  /* border-top: 1px solid #ffffff; */
+  /* border-bottom: 1px solid #ffffff; */
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(3, 13, 45, 1) 0%,
+    rgba(239, 239, 239, 1) 50%,
+    rgba(3, 13, 45, 1) 100%
+  );
+  border-image-slice: 50 0;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: #030d2d;
 }
 
 @media only screen and (max-width: 600px) {
   #sun {
-    height: 400px;
-    width: 400px;
+    height: 360px;
+    width: 360px;
+  }
+  #headline {
+    width: 100%;
   }
 }
