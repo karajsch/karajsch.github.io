@@ -42,4 +42,7 @@ body {
     height: 360px;
     width: 360px;
   }
+  #headline {
+    width: 50%;
+  }
 }
