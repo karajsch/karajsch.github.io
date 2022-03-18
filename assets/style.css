@@ -6,8 +6,12 @@ body {
 #sun {
   width: 40vw;
   height: 40vw;
-  background: rgba(3,13,45,1);
-  background: radial-gradient(circle, rgba(239,239,239,1) 0%, rgba(3,13,45,1) 100%);
+  background: rgba(3, 13, 45, 1);
+  background: radial-gradient(
+    circle,
+    rgba(239, 239, 239, 1) 0%,
+    rgba(3, 13, 45, 1) 100%
+  );
   position: absolute;
   border-left: 6px solid #efefef;
   top: 50%;
