@@ -4,6 +4,18 @@ body {
   font-family: "Merriweather";
 }
 
+a {
+  color: #000;
+  font-size: 12px;
+}
+
+a:hover {
+  color: mediumseagreen;
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: none;
+}
+
 .charging {
   -webkit-animation: pulsate 1.5s ease-out;
   -webkit-animation-iteration-count: infinite;
