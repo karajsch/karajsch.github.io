@@ -327,3 +327,13 @@ button#gohome {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+.resHeader {
+  font-size:17px;
+  font-weight:700;
+}
+
+.resDates {
+  float:right;
+}
+
