@@ -198,7 +198,7 @@ div.bar {
 
 .dot-L,
 .dot-R {
-  background-image: url("./assets/dot.png");
+  background-image: url("dot.png");
   height: 50%;
   width: 50%;
   position: absolute;
