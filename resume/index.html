@@ -17,9 +17,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <script src="https://kit.fontawesome.com/82ef6d5fbe.js" crossorigin="anonymous"></script>
-  
-  <body>
-    
+
+<body>
+<div class="tab">
+  <button class="projectsTab tabhome" onclick="" id="gohome">Kara Schmidt</button>
+  <button class="projectsTab active" onclick="openTab(event, 'Resume-Professional')" id="defaultOpen">Resume (Professional)</button>
+    <button class="projectsTab" onclick="openTab(event, 'Resume-Artist')">Resume (Artist)</button>
+
+</div>
+
+<div id="Resume-Professional" class="tabcontent" style="display: block;">
   <div class="container">
   <div class="row">
     <div class="col-lg-6">
@@ -112,5 +119,81 @@ Certificate Program Full Stack Web Development – University of Pennsylvania, P
       </div>
   </div>
   </div>
+</div>
+
+<div id="Resume-Artist" class="tabcontent" style="display: none;">
+  <h3>Resume (Artist)</h3>
+  CV
+Education
+2014 MFA Digital & Interdisciplinary Art Practice (DIAP), City College of New York CUNY, New York, NY
+2010 BFA Film/Video, Pratt Institute, Brooklyn, NY
+
+Grants/Awards
+2013 Therese McCabe Ralston Connor Award, City College of New York, New York, NY
+2013 Artist-in-Residence, Picture Berlin, Berlin, DE
+2006-10 Presidential Merit Scholarship Award, Pratt Institute, Brooklyn, NY
+
+Selected Exhibitions/Screenings
+2016 A.I.R. Gallery’s 15th Annual Postcard Show, Interstate Projects, Brooklyn, NY
+2016 Bienvenidos a Nuestra Casa, Silent Barn, Brooklyn, NY
+2015 VIDEOGRAMA International Film Festival, Museum of Contemporary Art of Bogotá, Universidad de Bogotá Jorge Tadeo Lozano, Bogotá, CO and Caligari Cineclub, Lugar a Dudas, Cali, CO
+2015-16 Phytophilic, 1067 Pacific People, Brooklyn, NY and The Blue Oyster, Dunedin, NZ
+2015 Fifth Under the Subway Video Art Night, The ANNEX Art Social Space, Brooklyn, NY and Project Space Kleiner Salon, Berlin, DE
+2015 11th Athens Digital Arts Festival: Public Spaces, Diplareios School, Athens, GR 
+2015 Digital Native Film Festival, The Front, New Orleans, LA 
+2015 Unearthing Roots, Foraging Self, NARS Foundation, Brooklyn, NY
+2014 DIAP MFA Exhibition, Compton-Goethals Gallery, City College of New York, NY
+2014 Reunion, Lehrter Siebzehn, Berlin, DE
+2014 Women Make Art, Cohen Library Archives, City College of New York, New York, NY
+2013 Two-Person Exhibition, The Extraordinary in the Ordinary, Guestroom #1: A project by curator Conny Becker (with artist Bill Berger), Brooklyn, NY
+2013 The View From Here, Tête Gallery, Berlin, DE
+2013 First Year DIAP MFA Show, DIAP, City College of New York, New York, NY
+2012 Inaugural DIAP Exhibition, Compton-Goethals Gallery, City College of New York, New York, NY
+2012 GLI/TC.H 2112, Chicago, IL
+2010 BFA Film/Video Thesis, BAM Rose Cinemas, Brooklyn, NY
+
+Site-specific Installations/Performances
+2016 "Untitled", Lines of Site, curated by Audra Lambert with artist Erin Treacy, FLUX Art Fair, Harlem Art Park, Harlem, NY
+2016 "Reticulant Matter" (performed by Schmidt and students of Casa Experimental), Casa Experimental at the Bushwick Youth Center, Brooklyn, NY
+2015 "Defracturing" (performed by Yunjin La-mei Woo), New Host Wanted, Blueline Gallery, Bloomington, IN
+2015 "Paraprism", Familiar Furnishings, Academic Gallery, Long Island City, NY
+2014 "Defracturing", Art in Odd Places: Free, 14th Street from Avenue C to the Hudson River, New York, NY
+2014 "Things Falling Together", HyperPlace Harlem, Clayton Williams Community Garden, New York, NY
+2014 A Perforated Center: MFA Thesis Exhibition, DIAP, City College of New York, New York, NY
+2014 "Invisible Line", Para-Sites 2014 Distributed Exhibition Project, A project by artist Yunjin La-mei Woo, New York, NY
+2013 "Emergent Blue Line", Liminal States, Projekt722, Brooklyn, NY
+2013 "Cadences (Memory Loss)“, Shift & Adjustment, LoBe Gallery, Berlin, DE
+
+Publications
+2014 Reunion: Picture Berlin 2014 Exhibition Catalogue
+2014 ‘Para-’: An Anthology on Art and Parasitism
+2014 Invisible City, issue 08: Habitat
+2013 Shift & Adjustment: Picture Berlin 2013 Exhibition Catalogue
+2006 Ubiquitous Literary & Arts Magazine
+2004 Desire | Intimacy, F-Stop Magazine
+</div>
+
+
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, projectsTab;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  projectsTab = document.getElementsByClassName("projectsTab");
+  for (i = 0; i < projectsTab.length; i++) {
+    projectsTab[i].className = projectsTab[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+    
+  
 </body>
 </html>
