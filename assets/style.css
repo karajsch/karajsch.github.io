@@ -91,7 +91,7 @@ div.pic {
   background-color: #999;
   display: inline-flex;
   margin: auto;
-  background-image: url("/Users/karaschmidt/Desktop/code/Projects (fka Homework)/karajsch.github.io/imgs/k.jpeg");
+  background-image: url(" ");
   background-size: cover;
 }
 
@@ -198,7 +198,7 @@ div.bar {
 
 .dot-L,
 .dot-R {
-  background-image: url("../assets/dot.png");
+  background-image: url("./assets/dot.png");
   height: 50%;
   width: 50%;
   position: absolute;
