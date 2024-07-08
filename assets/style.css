@@ -285,3 +285,36 @@ button:focus {
     margin: auto;
   }
 }
+
+
+.projectsTab {
+    border:none;
+    font-size:18px;
+    padding:0px 5px;
+    font-weight:bold;
+}
+
+.projectsTab:hover {
+    background-color:#000;
+    color:#fff;
+}
+
+.projectsTab.active::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    color:#000;
+    display:block;
+}
+
+.projectsTab:hover.active {
+    background:#efefef;
+    color:#000;
+}
+
+.projectsTab:hover.active::after {
+    background:#efefef;
+    color:#000;
+    margin-left: -5px;
+    margin-right: -5px;
+    scale:1.2
+}
