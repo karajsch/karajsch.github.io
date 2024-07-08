@@ -20,7 +20,7 @@
   <button class="projectsTab tabhome" onclick="" id="gohome">Kara Schmidt</button>
   <button class="projectsTab active" onclick="openTab(event, 'Web')" id="defaultOpen">Web</button><button class="projectsTab" onclick="openTab(event, 'Unsolicited Redesigns')">Unsolicited Redesigns</button>
   <button class="projectsTab" onclick="openTab(event, 'Illustration/Drawing')">Illustration/Drawing</button>
-    <button class="projectsTab" onclick="openTab(event, 'Performance/Installation')">Performance/Installation</button>
+    <button class="projectsTab" onclick="openTab(event, 'OtherWork')">Other Work</button>
 </div>
 
 <div id="Web" class="tabcontent" style="display: block;">
@@ -44,7 +44,7 @@
 </div>
 
 <script>
-function openTab(evt, cityName) {
+function openTab(evt, tabs) {
   var i, tabcontent, projectsTab;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -54,11 +54,9 @@ function openTab(evt, cityName) {
   for (i = 0; i < projectsTab.length; i++) {
     projectsTab[i].className = projectsTab[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabs).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
 </body>
