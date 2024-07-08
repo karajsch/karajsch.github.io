@@ -287,14 +287,14 @@ button:focus {
 }
 
 
-.projectsTab {
+.projectsTab, #gohome {
     border:none;
     font-size:18px;
     padding:0px 5px;
     font-weight:bold;
 }
 
-.projectsTab:hover {
+.projectsTab:hover, #gohome:hover {
     background-color:#000;
     color:#fff;
 }
@@ -318,3 +318,4 @@ button:focus {
     margin-right: -5px;
     scale:1.2
 }
+
