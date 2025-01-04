@@ -4,13 +4,12 @@
 
 body {
   font-family: "Outfit", serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   background: #fff;
   overflow: visible;
   transition: all 0.3s ease;
   font-size: 1.2rem;
-  font-weight: 300;
 }
 
 a {
@@ -124,8 +123,14 @@ div#navbarNavDropdown,
 }
 
 #home,
-#projects,
 #about {
+  margin: auto;
+  background-color: #fbede9;
+  color: #000;
+  background: url("./imgs/Background.png");
+}
+
+#projects {
   margin: auto;
   background-color: #fbede9;
   color: #000;
@@ -335,7 +340,8 @@ h5.card-title,
   font-size: 1.25rem;
 }
 
-.card button {
+.card button,
+.artCallout button {
   outline: none;
   background: #000;
   color: #fff;
@@ -367,7 +373,8 @@ h5.card-title,
   font-weight: 600;
 }
 
-.card button:hover {
+.card button:hover,
+.artCallout button:hover {
   outline: none;
   background: #000;
   color: #000;
@@ -381,7 +388,8 @@ h5.card-title,
   box-shadow: inset 0 100px 0 0 #000;
 }
 
-.card button:active {
+.card button:active,
+.artCallout button:active {
   outline: none;
   background: #333;
   color: #fff;
@@ -425,7 +433,32 @@ h5.card-title,
     rgba(255, 255, 255, 0.2) 1px,
     transparent 1px
   );
-  background-size: 20px 20px;
+  background-size: 3.1rem 3.1rem;
+}
+
+.artCallout {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fbede9d9;
+  background-image: linear-gradient(#ebdad5 1px, transparent 1px),
+    linear-gradient(90deg, #ebdad5, transparent 1px);
+  background-size: 6.2rem 6.2rem;
+  border-bottom: 1px solid #ebdad5;
+}
+
+p.subtext span {
+  font-family: "Outfit", serif;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+li {
+  line-height: 1.697;
+}
+
+p.subtext span a {
+  font-weight: 600px;
 }
 
 /* Bottom */
@@ -463,4 +496,7 @@ h5.card-title,
 a:hover.linkedin {
   color: #333;
   scale: 1.05;
+}
+#art img {
+  width: 100%;
 }
