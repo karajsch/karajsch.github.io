@@ -127,7 +127,6 @@ div#navbarNavDropdown,
   margin: auto;
   background-color: #fbede9;
   color: #000;
-  background: url("./imgs/art/Background.png");
 }
 
 #projects {
@@ -340,8 +339,7 @@ h5.card-title,
   font-size: 1.25rem;
 }
 
-.card button,
-.artCallout button {
+.card button {
   outline: none;
   background: #000;
   color: #fff;
@@ -373,8 +371,7 @@ h5.card-title,
   font-weight: 600;
 }
 
-.card button:hover,
-.artCallout button:hover {
+.card button:hover {
   outline: none;
   background: #000;
   color: #000;
@@ -388,8 +385,7 @@ h5.card-title,
   box-shadow: inset 0 100px 0 0 #000;
 }
 
-.card button:active,
-.artCallout button:active {
+.card button:active {
   outline: none;
   background: #333;
   color: #fff;
@@ -496,7 +492,4 @@ p.subtext span a {
 a:hover.linkedin {
   color: #333;
   scale: 1.05;
-}
-#art img {
-  width: 100%;
 }
