@@ -520,7 +520,7 @@ input:checked + .slider:before {
   border-top: 1px solid #fff;
 }
 
-.dark-theme > .nav-tabs, 
+.dark-theme .nav-tabs, 
 .dark-theme .bottom {
   background:#121212;
 }
