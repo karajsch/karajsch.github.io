@@ -520,8 +520,9 @@ input:checked + .slider:before {
   border-top: 1px solid #fff;
 }
 
-.dark-theme > .nav-tabs {
-  border-bottom: 1px solid #ffffff;
+.dark-theme > .nav-tabs, 
+.dark-theme .bottom {
+  background:#121212;
 }
 
 .dark-theme button.navbar-toggler {
@@ -554,8 +555,3 @@ filter:invert(1)
   color: white;
 }
 
-.dark-theme .nav-tabs,
-.dark-theme .bottom {
-  border: none;
-  background: #121212;
-}
