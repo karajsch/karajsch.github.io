@@ -522,7 +522,7 @@ input:checked + .slider:before {
 
 .dark-theme .nav-tabs, 
 .dark-theme .bottom {
-  background:#121212;
+  background:#1c1c1c;
 }
 
 .dark-theme button.navbar-toggler {
