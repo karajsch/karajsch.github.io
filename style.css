@@ -331,6 +331,7 @@ p.subtext span a {
 .bottom {
   width: 100%;
   padding: 6rem 2rem;
+  background: #f8f9fa;
 }
 
 .bottom i {
