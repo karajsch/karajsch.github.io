@@ -12,19 +12,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300..700&family=Outfit:wght@100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/82ef6d5fbe.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <section>
-        <!-- 
-    ═════════════════════════════
-     ░▒▓▓▓▓▒░  Nav Bar  ░▒▓▓▓▓▒░
-    ═════════════════════════════
-     -->
-        <nav class="nav navbar nav-tabs navbar-expand-lg navbar-light bg-light">
+    <section id="mainSection">
+        <nav class="nav navbar navbar-light nav-tabs navbar-expand-lg">
             <li><a class="navbar-brand text-uppercase" data-toggle="tab" href="#home">Kara Schmidt</a></li>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,13 +37,7 @@
                 </ul>
             </div>
         </nav>
-
         <div class="tab-content">
-            <!-- 
-    ═════════════════════════
-     ░▒▓▓▓▓▒░  Home  ░▒▓▓▓▓▒░
-    ═════════════════════════
-     -->
             <div id="home" class="tab-pane active fade in">
                 <div class="container">
                     <header>
@@ -65,7 +55,7 @@
                             <span>I</span>
                             <span>specialize</span>
                             <span>in</span>
-                            <span>ecommerce</span>
+                            <span>E-commerce</span>
                             <span>and</span>
                             <span>ensure</span>
                             <span>our</span>
@@ -92,43 +82,11 @@
                     </header>
                 </div>
             </div>
-            <!-- 
-    ══════════════════════════════
-     ░▒▓▓▓▓▒░  Projects  ░▒▓▓▓▓▒░
-    ══════════════════════════════
-     -->
-            <div id="projects" class="tab-pane fade">
+            <div id="projects" class="tab-pane fade in">
                 <div class="container">
 
                     <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <!-- Your Lab Partner - Card 1 -->
-                        <div class="col">
-                            <div class="card">
-                                <img src="./imgs/ypl-header.png" class="card-img-top" alt="Your Lab Partner Screenshot">
-                                <div class="card-body">
-                                    <h5 class="card-title">Your Lab Partner | EO</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project1Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Educational Outreach - Card 2 -->
-                        <div class="col">
-                            <div class="card">
-                                <img src="./imgs/thumb_p2.png" class="card-img-top"
-                                    alt="Landing Page for Educational Outreach Screenshot">
-                                <div class="card-body">
-                                    <h5 class="card-title">Landing Page for Educational Outreach | EO</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project2Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
 
                         <!-- 120i Microscope Objectives - Card 3  -->
                         <div class="col">
@@ -162,7 +120,7 @@
 
                         <!-- Automated Upright Microscopes - Card 5  -->
                         <div class="col">
-                            <div class="card reveal">
+                            <div class="card reveal active">
                                 <img src="./imgs/thumb_p5.png" class="card-img-top" alt="Automated Upright Microscopes">
                                 <div class="card-body">
                                     <h5 class="card-title">Automated Upright Microscopes | EO</h5>
@@ -174,22 +132,10 @@
                             </div>
                         </div>
 
-                        <!-- Trade Shows - Card 8 -->
-                        <div class="col">
-                            <div class="card reveal">
-                                <img src="./imgs/thumb_p8.png" class="card-img-top" alt="Trade Shows">
-                                <div class="card-body">
-                                    <h5 class="card-title">Trade Shows | EO</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project8Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- Pass-Gen - Card 6 -->
                         <div class="col">
-                            <div class="card reveal">
+                            <div class="card reveal active">
                                 <img src="./imgs/thumb_p6.png" class="card-img-top" alt="Pass-Gen">
                                 <div class="card-body">
                                     <h5 class="card-title">Pass-Gen</h5>
@@ -202,7 +148,7 @@
                         </div>
                         <!-- Work Day Scheduler - Card 7 -->
                         <div class="col">
-                            <div class="card reveal">
+                            <div class="card reveal active">
                                 <img src="./imgs/thumb_p7.png" class="card-img-top" alt="Optimized Product Page">
                                 <div class="card-body">
                                     <h5 class="card-title">Work Day Scheduler</h5>
@@ -240,7 +186,7 @@
                                     systems.</p>
 
 
-                                <video class="img-fluid mb-3 w-100" muted loop autoplay>
+                                <video class="img-fluid mb-3 w-100" muted="" loop="" autoplay="">
                                     <source src="./imgs/ypl.mov" type="video/mp4">
                                     Your browser does not support the video fadeIn.
                                 </video>
@@ -251,14 +197,15 @@
                                     <a href="https://www.edmundoptics.com/promotions/your-lab-partner/" class="livelink"
                                         target="_blank">edmundoptics.com/promotions/your-lab-partner/</a></span>
                                 <span><i class="fa fa-bookmark-o" aria-hidden="true"></i>
-                                    Archived Link: <a href="http://archive.today/BpgGa" class="livelink" target="_blank" ">archive.today/BpgGak</a></span></div>
+                                    Archived Link: <a href="http://archive.today/BpgGa" class="livelink"
+                                        target="_blank" "="">archive.today/BpgGak</a></span></div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Educational Outreach - Modal 2 -->
                         <div class=" modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel"
-                                        aria-hidden="true">
+                                        aria-hidden="true" style="display: none;">
                                         <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -284,7 +231,7 @@
                                                         next generation of
                                                         innovators and
                                                         scientists.</p>
-                                                    <video class="img-fluid mb-3 w-100" muted loop autoplay>
+                                                    <video class="img-fluid mb-3 w-100" muted="" loop="" autoplay="">
                                                         <source src="./imgs/outreach.mov" type="video/mp4">
                                                         Your browser does not support the video fadeIn.
                                                     </video>
@@ -297,14 +244,15 @@
                                                             target="_blank">edmundoptics.com/company/edmund-outreach/</a></span>
                                                     <span><i class="fa fa-bookmark-o" aria-hidden="true"></i>
                                                         Archived Link: <a href="http://archive.today/I0rOb"
-                                                            class="livelink" target="_blank" ">archive.today/I0rOb</a></span></div>
+                                                            class="livelink" target="_blank" "="">archive.today/I0rOb</a></span></div>
                                             </div>
                                         </div>
                             </div>
 
                             <!-- Deluxe Category Page for Microscope Objectives - Modal 3 -->
                             <div class=" modal fade" id="project3Modal" tabindex="-1"
-                                                            aria-labelledby="project3ModalLabel" aria-hidden="true">
+                                                            aria-labelledby="project3ModalLabel" aria-hidden="true"
+                                                            style="display: none;">
                                                             <div class="modal-dialog modal-xl">
                                                                 <div class="modal-content">
                                                                     <div class="modal-header">
@@ -319,8 +267,8 @@
                                                                         </button>
                                                                     </div>
                                                                     <div class="modal-body">
-                                                                        <video class="img-fluid mb-3" muted loop
-                                                                            autoplay>
+                                                                        <video class="img-fluid mb-3" muted="" loop=""
+                                                                            autoplay="">
                                                                             <source src="./imgs/objectives.mov"
                                                                                 type="video/mp4">
                                                                             Your browser does not support the video
@@ -388,8 +336,8 @@
                                                                     optimized
                                                                     version based on my changes.</p>
                                                                 <a href="https://archive.org/example-project1"
-                                                                    class="btn btn-secondary" class="livelink"
-                                                                    target="_blank">Archived Link</a>
+                                                                    class="btn btn-secondary" target="_blank">Archived
+                                                                    Link</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -429,7 +377,8 @@
 
                                                 <!-- Password Generator - Modal 6 -->
                                                 <div class="modal fade" id="project6Modal" tabindex="-1"
-                                                    aria-labelledby="project6ModalLabel" aria-hidden="true">
+                                                    aria-labelledby="project6ModalLabel" style="display: none;"
+                                                    aria-hidden="true">
                                                     <div class="modal-dialog modal-xl">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
@@ -457,75 +406,46 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- 
-    ═══════════════════════════
-     ░▒▓▓▓▓▒░  About  ░▒▓▓▓▓▒░
-    ═══════════════════════════
-     -->
                                             <div id="about" class="tab-pane fade">
                                                 <!-- About Section -->
                                                 <section id="about">
                                                     <div class="container">
                                                         <header>
                                                             <p>
-                                                                <span>I</span>
-                                                                <span>am</span>
+                                                                <span>I'm</span>
                                                                 <span>a</span>
-                                                                <span>Web</span>
                                                                 <span>Designer</span>
+                                                                <span>that loves</span>
                                                                 <span>creating</span>
                                                                 <span>user-focused</span>
-                                                                <span>e-commerce</span>
                                                                 <span>experiences</span>
                                                                 <span>that</span>
                                                                 <span>are</span>
-                                                                <span>both</span>
                                                                 <span>visually</span>
                                                                 <span>engaging</span>
                                                                 <span>and</span>
-                                                                <span>effective.</span></p>
-
-                                                            <p class="subtext mt-5 small"> <span>As a web designer with
-                                                                    3+ years of
-                                                                    experience, I
-                                                                    focus
-                                                                    on
-                                                                    crafting digital experiences that are as functional
-                                                                    as they are
-                                                                    visually
-                                                                    engaging. I
-                                                                    work with cross-functional teams to simplify complex
-                                                                    content,
-                                                                    ensure
-                                                                    accessibility,
-                                                                    and stay ahead of UX/UI trends. With a solid
-                                                                    foundation in HTML,
-                                                                    CSS, and
-                                                                    JavaScript, I use A/B testing to refine performance
-                                                                    and design
-                                                                    custom graphics
-                                                                    in
-                                                                    Photoshop and Illustrator to elevate the user
-                                                                    experience. My
-                                                                    goal is always to
-                                                                    create websites that are seamless, user-centered,
-                                                                    and aligned
-                                                                    with brand
-                                                                    standards.</span>
+                                                                <span>data-driven.</span></p>
+                                                            <p class="subtext mt-5 small"> <span>With 4+ of experience
+                                                                    in web design, I’m
+                                                                    passionate about creating digital experiences that
+                                                                    are not only functional but
+                                                                    also
+                                                                    beautifully engaging. I love collaborating with
+                                                                    cross-functional teams to
+                                                                    simplify
+                                                                    complicated content, enhance accessibility, and use
+                                                                    analytics to leverage design
+                                                                    decisions to best serve the customer. My expertise
+                                                                    in HTML, CSS, and
+                                                                    JavaScript allows me to use A/B
+                                                                    testing to optimize the front end and reveal
+                                                                    insights about user behavior. My
+                                                                    ultimate goal is always to
+                                                                    craft websites that feel seamless, human-centered,
+                                                                    and perfectly aligned with
+                                                                    brand
+                                                                    standards.
                                                             </p>
-                                                            <p class="subtext mt-4 small"><span>My background in art and
-                                                                    print has
-                                                                    shaped
-                                                                    the way
-                                                                    I approach my work. These experiences inform
-                                                                    everything I do
-                                                                    now, grounding me
-                                                                    in a design philosophy that values both aesthetics
-                                                                    and
-                                                                    functionality, and
-                                                                    ensures
-                                                                    that every project feels considered and
-                                                                    cohesive.</span></p>
                                                             <hr class="my-5" />
                                                             <div class="row">
                                                                 <div class="col-lg-6">
@@ -534,6 +454,8 @@
                                                                         <li>UX Strategy & Digital Product Design</li>
                                                                         <li>Mobile & Responsive UI Design</li>
                                                                         <li>Wireframing & Prototyping
+                                                                        </li>
+                                                                        <li>Utilizing data to inform design decisions
                                                                         </li>
                                                                         <li>A/B Testing & Iterative Improvements</li>
                                                                         <li>Accessibility & Usability Compliance</li>
@@ -547,6 +469,8 @@
                                                                         <li>Design Tools: Figma, Adobe, Photoshop,
                                                                             Illustrator</li>
                                                                         <li>Frontend: HTML, CSS, JavaScript</li>
+                                                                        <li>Analytics: Google Analytics, Mouseflow,
+                                                                            Clarity</li>
                                                                         <li>CMS: Umbraco, WebAdmin, Episerver</li>
                                                                         <li>Collaboration Tools: Slack, Teams, Jira,
                                                                             Google Suite</li>
@@ -554,9 +478,8 @@
                                                                         </li>
                                                                     </ul>
                                                                 </div>
-
-
                                                             </div>
+                                                            <hr class="my-5" />
                                                             <p class="subtext mt-4 mb-5 small"><span>Want to work
                                                                     together? Reach
                                                                     out to me via <a
@@ -565,39 +488,42 @@
                                                                         href="https://www.linkedin.com/in/karajsch"><strong>LinkedIn</strong></a>.</span>
                                                             </p>
                                                         </header>
-
                                                     </div>
                                                 </section>
                                             </div>
+                                            <div class="bottom">
+                                                <h2>Send a <a href="mailto:kara_schmidt@icloud.com">message</a></h2>
+                                                <nav class="nav navbar nav-tabs navbar-expand-lg navbar-light">
+
+                                                    <ul class="navbar-nav"
+                                                        style="flex-direction: column; text-align: center;justify-items:flex-end;">
+                                                        <li>
+                                                            <a class="text-uppercase" data-toggle="tab"
+                                                                href="#projects">Projects</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="text-uppercase" data-toggle="tab"
+                                                                href="#about">About</a></li>
+                                                        </li>
+                                                        <li>
+                                                            <a class="linkedin"
+                                                                href="https://www.linkedin.com/in/karajsch">
+                                                                <i class="fa fa-linkedin-square" aria-hidden="true">
+                                                                </i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                                <div class="toggle-wrapper">
+                                                    <label class="switch">
+                                                        <input type="checkbox" id="themeSlider">
+                                                        <span class="slider"></span>
+                                                    </label>
+                                                    <span><i class="fa fa-moon-o" aria-hidden="true"></i></span>
+                                                </div>
+                                            </div>
     </section>
 
-
-
-    <!-- 
-    ════════════════════════════════════
-     ░▒▓▓▓▓▒░  Bottom Nav Bar  ░▒▓▓▓▓▒░
-    ════════════════════════════════════
-     -->
-    <div class="bottom">
-        <h2>Send a <a href="mailto:kara_schmidt@icloud.com">message</a></h2>
-        <nav class="nav navbar nav-tabs navbar-expand-lg navbar-light bg-light">
-
-            <ul class="navbar-nav" style="flex-direction: column; text-align: center;">
-                <li>
-                    <a class="text-uppercase" data-toggle="tab" href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a class="text-uppercase" data-toggle="tab" href="#about">About</a></li>
-                </li>
-                <li>
-                    <a class="linkedin" href="https://www.linkedin.com/in/karajsch">
-                        <i class="fa fa-linkedin-square" aria-hidden="true">
-                        </i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
     <script>
         $(document).ready(function () {
             const resetNavAndScroll = () => {
@@ -608,31 +534,6 @@
             $('li > a.navbar-brand, .resCallout button, .artCallout button').click(resetNavAndScroll);
             $(".bottom li>a").on("click", () => $("body").scrollTop(0));
         });
-        console.log(`
- .... ... .... ... .... ... ... ....:*#:-*%=. ... ................................................. 
-..................................:#@@@@@%-.........................................................
-.................................=%@@@@@%=..........................................................
-................................+@@@@@@@*...........................................................
-... ........ ... .... ... .... -@@@@@@@+... ... .... ... .... ... ... .... ... .... ... .... ... ...
- .... ... .... ... .... ... ..#@@@@@@@*. .... ... ................................................. 
-... ........ ... .... ....:--%@@@@@@@- .... ... .... ... .... ... ... .... ... .... ... .... ... ...
- .... ... .... ... .....-@@@@@@@@@@@*... .... ... ................................................. 
-......................:@@@@@@@@@@@@@@-..............................................................
-....................:*@@@@@@@@@@@@@@@*..............:---:...........................................
-....................*@@@@@@@@@@@@@@@@@@%*+++===*%@@@@@@@@@@@@%*===:.....--:.........................
-... ........ ... ..:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+#@@@@*...... ... .... ... ...
-....................:=+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%......................
-.......................-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@......................
-......................:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:.....................
-......................+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:....................
-... ..................%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*-....:*#+:. .......
- .... ..=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*-.......=%@@@@@@@@@@@@@@@@@@@@@@@@@@#...... 
-... ....*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*-... ... .... .....:%@@@@@@@@@@@@@@@@@@@@@@@@@%-....
-.....:=#@@@@@@@@@@@@@@@@@@@*==*#%%%%%%#+-:...........................:*%%@@@%%%@@@@@-....-*%@@@@%=:.
-.:-*@@@@@@@%%#**+-:...-==-:....................................................:+@@@@%:.....-#%@@@@#
-#@@@@@%*=:.......................................................................:=+#%#:.........:-:
-.=+=-...............................................................................................
-`);
     </script>
     <script>
         function reveal() {
@@ -651,7 +552,12 @@
             }
         }
 
-        window.addEventListener("scroll", reveal);
+        const themeSlider = document.getElementById('themeSlider');
+        const mainSection = document.getElementById('mainSection');
+
+        themeSlider.addEventListener('change', () => {
+            mainSection.classList.toggle('dark-theme', themeSlider.checked);
+        });
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
