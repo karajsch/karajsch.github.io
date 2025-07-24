@@ -555,3 +555,20 @@ filter:invert(1)
   color: white;
 }
 
+@media screen and (max-width: 599px) {
+  header span {
+    font-size: 7vw;
+  }
+  .bottom > nav {
+    display: none;
+  }
+  .toggle-wrapper {
+    float: left;
+  }
+
+  .bottom h2 {
+    float: right;
+    margin-top: -2rem;
+  }
+}
+
