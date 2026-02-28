@@ -1,574 +1,90 @@
-<html lang="en">
-
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KARA SCHMIDT</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link rel="icon" type="image/x-icon" href="./imgs/KS_FAVICON.ico">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300..700&family=Outfit:wght@100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300..700&amp;family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/82ef6d5fbe.js" crossorigin="anonymous"></script>
-</head>
+    <script src="https://kit.fontawesome.com/82ef6d5fbe.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">
 
-<body>
-    <section id="mainSection">
-        <nav class="nav navbar navbar-light nav-tabs navbar-expand-lg">
-            <li><a class="navbar-brand text-uppercase" data-toggle="tab" href="#home">Kara Schmidt</a></li>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li>
-                        <a class="text-uppercase" data-toggle="tab" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="text-uppercase" data-toggle="tab" href="#about">About</a></li>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="tab-content">
-            <div id="home" class="tab-pane active fade in">
-                <div class="container">
-                    <header>
-                        <p>
-                            <span>I’m</span>
-                            <span>Kara</span>
-                            <span>-</span>
-                            <span>a</span>
-                            <span>Web</span>
-                            <span>Designer</span>
-                            <span>currently</span>
-                            <span>at</span>
-                            <span>Edmund Optics,</span>
-                            <span>where</span>
-                            <span>I</span>
-                            <span>specialize</span>
-                            <span>in</span>
-                            <span>E-commerce</span>
-                            <span>and</span>
-                            <span>ensure</span>
-                            <span>our</span>
-                            <span>website</span>
-                            <span>is</span>
-                            <span>tailored</span>
-                            <span>to</span>
-                            <span>the</span>
-                            <span>user</span>
-                            <span>experience,</span>
-                            <span>showcasing</span>
-                            <span>our</span>
-                            <span>cutting-edge</span>
-                            <span>optical</span>
-                            <span>solutions</span>
-                            <span>for</span>
-                            <span>industries</span>
-                            <span>like</span>
-                            <span>life</span>
-                            <span>sciences,</span>
-                            <span>imaging,</span>
-                            <span>and</span>
-                            <span>defense.</span>
-                    </header>
-                </div>
-            </div>
-            <div id="projects" class="tab-pane fade in">
-                <div class="container">
+    </head>
 
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: "Outfit", serif;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    color: #333;
+  }
+
+  .brb-container {
+    text-align: center;
+  }
+
+  .battery {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: pulse 1.6s ease-in-out infinite;
+    color: lightgreen;
+  }
+
+  h1 {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin: 0;
+  }
+
+  .subtext {
+    opacity: 0.7;
+    margin-top: 10px;
+    font-size: 0.95rem;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    50% {
+      transform: scale(1.15);
+      opacity: 1;
+    }
+  }
+</style><body>
+    
 
 
-                        <!-- 120i Microscope Objectives - Card 3  -->
-                        <div class="col">
-                            <div class="card">
-                                <img src="./imgs/thumb_p3.png" class="card-img-top"
-                                    alt="Deluxe Category Page for 120i Plan Microscope Objectives">
-                                <div class="card-body">
-                                    <h5 class="card-title">Deluxe Category Page for 120i Plan Microscope Objectives
-                                        | EO</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project3Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Optimized Product Page - Card 4  -->
-                        <div class="col">
-                            <div class="card">
-                                <img src="./imgs/thumb_p4.png" class="card-img-top" alt="Optimized Product Page">
-                                <div class="card-body">
-                                    <h5 class="card-title">Optimized Product Page | EO</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project4Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Automated Upright Microscopes - Card 5  -->
-                        <div class="col">
-                            <div class="card reveal active">
-                                <img src="./imgs/thumb_p5.png" class="card-img-top" alt="Automated Upright Microscopes">
-                                <div class="card-body">
-                                    <h5 class="card-title">Automated Upright Microscopes | EO</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project5Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
 
 
-                        <!-- Pass-Gen - Card 6 -->
-                        <div class="col">
-                            <div class="card reveal active">
-                                <img src="./imgs/thumb_p6.png" class="card-img-top" alt="Pass-Gen">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pass-Gen</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project6Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Work Day Scheduler - Card 7 -->
-                        <div class="col">
-                            <div class="card reveal active">
-                                <img src="./imgs/thumb_p7.png" class="card-img-top" alt="Optimized Product Page">
-                                <div class="card-body">
-                                    <h5 class="card-title">Work Day Scheduler</h5>
-                                    <button type="button" class="btn" data-bs-toggle="modal"
-                                        data-bs-target="#project7Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+<div class="brb-container">
+  <div class="battery">
+    <i class="fa-solid fa-battery-half" aria-hidden="true"></i>
+  </div>
+
+  <h1>Be right back - redesigning for 2026!</h1>
+  <div class="subtext">Charging something better ⚡</div>
+</div>
 
 
-                    </div>
-                </div>
-
-                <!-- Your Lab Partner - Modal 1 -->
-                <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="project1ModalLabel">Your Lab Partner | EO</h5>
-                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">×</span>
-                                </button>
-
-                            </div>
-                            <div class="modal-body">
-                                <img src="./imgs/thumb_p1.png" class="w-100">
-                                <p>The "Your Lab Partner" landing page streamlines the
-                                    setup and optimization of
-                                    laboratory environments for up and coming labs, with a focus on imaging
-                                    solutions, lab essentials,
-                                    and laser
-                                    systems.</p>
-
-
-                                <video class="img-fluid mb-3 w-100" muted="" loop="" autoplay="">
-                                    <source src="./imgs/ypl.mov" type="video/mp4">
-                                    Your browser does not support the video fadeIn.
-                                </video>
-                            </div>
-                            <div class="modal-footer">
-                                <span>
-                                    <i class="fa fa-globe" aria-hidden="true"></i> Live Link:
-                                    <a href="https://www.edmundoptics.com/promotions/your-lab-partner/" class="livelink"
-                                        target="_blank">edmundoptics.com/promotions/your-lab-partner/</a></span>
-                                <span><i class="fa fa-bookmark-o" aria-hidden="true"></i>
-                                    Archived Link: <a href="http://archive.today/BpgGa" class="livelink"
-                                        target="_blank" "="">archive.today/BpgGak</a></span></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Educational Outreach - Modal 2 -->
-                        <div class=" modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel"
-                                        aria-hidden="true" style="display: none;">
-                                        <div class="modal-dialog modal-lg">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="project1ModalLabel">Edmund
-                                                        Outreach | EO</h5>
-                                                    <button type="button" class="close" data-bs-dismiss="modal"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">×</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <img src="imgs/thumb_p2.png" class="w-100">
-                                                    <p> This page highlights various educational outreach
-                                                        initiatives, including
-                                                        local
-                                                        school
-                                                        visits, field trips, and digital resources, all designed to
-                                                        foster scientific
-                                                        curiosity and
-                                                        exploration. The
-                                                        landing page
-                                                        aims to promote optics as a vital field and encourage the
-                                                        next generation of
-                                                        innovators and
-                                                        scientists.</p>
-                                                    <video class="img-fluid mb-3 w-100" muted="" loop="" autoplay="">
-                                                        <source src="./imgs/outreach.mov" type="video/mp4">
-                                                        Your browser does not support the video fadeIn.
-                                                    </video>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <span>
-                                                        <i class="fa fa-globe" aria-hidden="true"></i> Live Link:
-                                                        <a href="https://www.edmundoptics.com/company/edmund-outreach/"
-                                                            class="livelink"
-                                                            target="_blank">edmundoptics.com/company/edmund-outreach/</a></span>
-                                                    <span><i class="fa fa-bookmark-o" aria-hidden="true"></i>
-                                                        Archived Link: <a href="http://archive.today/I0rOb"
-                                                            class="livelink" target="_blank" "="">archive.today/I0rOb</a></span></div>
-                                            </div>
-                                        </div>
-                            </div>
-
-                            <!-- Deluxe Category Page for Microscope Objectives - Modal 3 -->
-                            <div class=" modal fade" id="project3Modal" tabindex="-1"
-                                                            aria-labelledby="project3ModalLabel" aria-hidden="true"
-                                                            style="display: none;">
-                                                            <div class="modal-dialog modal-lg">
-                                                                <div class="modal-content">
-                                                                    <div class="modal-header">
-                                                                        <h5 class="modal-title" id="project1ModalLabel">
-                                                                            Deluxe Category Page
-                                                                            for 120i Plan
-                                                                            Microscope
-                                                                            Objectives | EO</h5>
-                                                                        <button type="button" class="close"
-                                                                            data-bs-dismiss="modal" aria-label="Close">
-                                                                            <span aria-hidden="true">×</span>
-                                                                        </button>
-                                                                    </div>
-                                                                    <div class="modal-body">
-                                                                        <video class="img-fluid mb-3" muted="" loop=""
-                                                                            autoplay="">
-                                                                            <source src="./imgs/objectives.mov"
-                                                                                type="video/mp4">
-                                                                            Your browser does not support the video
-                                                                            fadeIn.
-                                                                        </video>
-                                                                        <p>Deluxe product category page for TECHSPEC®
-                                                                            120i Plan APO Infinity
-                                                                            Corrected
-                                                                            Objectives
-                                                                            featuring easy access to product
-                                                                            configurations,
-                                                                            technical resources, and purchasing options,
-                                                                            all in a
-                                                                            user-friendly format that
-                                                                            caters to
-                                                                            both
-                                                                            machine vision and life science
-                                                                            applications.</p>
-                                                                    </div>
-                                                                    <div class="modal-footer">
-                                                                        Live Link: <a
-                                                                            href="https://www.edmundoptics.com/c/techspecr-120i-plan-apo-infinity-corrected-objectives/1494/"
-                                                                            class="livelink"
-                                                                            target="_blank">edmundoptics.com/c/techspecr-120i-plan-apo-infinity-corrected-objectives/1494/</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                </div>
-
-                                                <!-- Optimized Product Page - Modal 4 -->
-                                                <div class="modal fade" id="project4Modal" tabindex="-1"
-                                                    aria-labelledby="project4ModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog modal-lg">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5 class="modal-title" id="project1ModalLabel">
-                                                                    Optimized Product
-                                                                    Page | EO</h5>
-                                                                <button type="button" class="close"
-                                                                    data-bs-dismiss="modal" aria-label="Close">
-                                                                    <span aria-hidden="true">×</span>
-                                                                </button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <img src="./imgs/product-page_new.png"
-                                                                    class="img-fluid mb-3" alt="Optimized Product Page">
-                                                                <p><strong>Description:</strong> In this project, I
-                                                                    conducted
-                                                                    extensive A/B testing
-                                                                    on a product
-                                                                    page to assess how various elements influenced user
-                                                                    engagement
-                                                                    and conversions.
-                                                                    Over several
-                                                                    months, I tested different layouts, button
-                                                                    placements, and
-                                                                    calls-to-action
-                                                                    within the
-                                                                    existing template to determine the most effective
-                                                                    configurations. The overlay
-                                                                    slider image
-                                                                    above shows a side-by-side comparison of the initial
-                                                                    product
-                                                                    page and the final,
-                                                                    optimized
-                                                                    version based on my changes.</p>
-                                                                <a href="https://archive.org/example-project1"
-                                                                    class="btn btn-secondary" target="_blank">Archived
-                                                                    Link</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Automated Upright Microscopes - Modal 5 -->
-                                                <div class="modal fade" id="project5Modal" tabindex="-1"
-                                                    aria-labelledby="project5ModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog modal-lg">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5 class="modal-title" id="project1ModalLabel">
-                                                                    Automated Upright
-                                                                    Microscopes | EO
-                                                                </h5>
-                                                                <button type="button" class="close"
-                                                                    data-bs-dismiss="modal" aria-label="Close">
-                                                                    <span aria-hidden="true">×</span>
-                                                                </button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <img src="./imgs/aum_tn.png" class="img-fluid mb-3"
-                                                                    alt="Automated Upright Microscopes">
-                                                                <p><strong>Landing page for Automated Upright
-                                                                        Microscopes.</strong>
-                                                                </p>
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                Live Link: <a
-                                                                    href="https://www.edmundoptics.com/c/automated-upright-microscopes/1493/"
-                                                                    class="livelink"
-                                                                    target="_blank">edmundoptics.com/c/automated-upright-microscopes/1493/</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Password Generator - Modal 6 -->
-                                                <div class="modal fade" id="project6Modal" tabindex="-1"
-                                                    aria-labelledby="project6ModalLabel" style="display: none;"
-                                                    aria-hidden="true">
-                                                    <div class="modal-dialog modal-lg">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h5 class="modal-title" id="project1ModalLabel">PassGen
-                                                                    - A Simple
-                                                                    Password
-                                                                    Generator</h5>
-                                                                <button type="button" class="close"
-                                                                    data-bs-dismiss="modal" aria-label="Close">
-                                                                    <span aria-hidden="true">×</span>
-                                                                </button>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <img src="./imgs/pass_tn.png" class="img-fluid mb-3"
-                                                                    alt="Password Generator">
-                                                                <p><strong>A simple application for creating a new
-                                                                        password.</strong> </p>
-                                                            </div>
-                                                            <div class="modal-footer"> Live Link:
-                                                                <a href="https://karaschmidt.io/pass-gen/"
-                                                                    class="livelink"
-                                                                    target="_blank">karaschmidt.io/pass-gen/</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="about" class="tab-pane fade">
-                                                <!-- About Section -->
-                                                <section id="about">
-                                                    <div class="container">
-                                                        <header>
-                                                            <p>
-                                                                <span>I'm</span>
-                                                                <span>a</span>
-                                                                <span>Designer</span>
-                                                                <span>that loves</span>
-                                                                <span>creating</span>
-                                                                <span>user-focused</span>
-                                                                <span>experiences</span>
-                                                                <span>that</span>
-                                                                <span>are</span>
-                                                                <span>visually</span>
-                                                                <span>engaging</span>
-                                                                <span>and</span>
-                                                                <span>data-driven.</span></p>
-                                                            <p class="subtext mt-5 small"> <span>With 4+ of experience
-                                                                    in web design, I’m
-                                                                    passionate about creating digital experiences that
-                                                                    are not only functional but
-                                                                    also
-                                                                    beautifully engaging. I love collaborating with
-                                                                    cross-functional teams to
-                                                                    simplify
-                                                                    complicated content, enhance accessibility, and use
-                                                                    analytics to leverage design
-                                                                    decisions to best serve the customer. My expertise
-                                                                    in HTML, CSS, and
-                                                                    JavaScript allows me to use A/B
-                                                                    testing to optimize the front end and reveal
-                                                                    insights about user behavior. My
-                                                                    ultimate goal is always to
-                                                                    craft websites that feel seamless, human-centered,
-                                                                    and perfectly aligned with
-                                                                    brand
-                                                                    standards.
-                                                            </p>
-                                                            <hr class="my-5" />
-                                                            <div class="row">
-                                                                <div class="col-lg-6">
-                                                                    <h3>Core Competencies</h3>
-                                                                    <ul>
-                                                                        <li>UX Strategy & Digital Product Design</li>
-                                                                        <li>Mobile & Responsive UI Design</li>
-                                                                        <li>Wireframing & Prototyping
-                                                                        </li>
-                                                                        <li>Utilizing data to inform design decisions
-                                                                        </li>
-                                                                        <li>A/B Testing & Iterative Improvements</li>
-                                                                        <li>Accessibility & Usability Compliance</li>
-                                                                        <li>Design Systems & Cross-Functional
-                                                                            Collaboration</li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div class="col-lg-6">
-                                                                    <h3>Technical Skills</h3>
-                                                                    <ul>
-                                                                        <li>Design Tools: Figma, Adobe, Photoshop,
-                                                                            Illustrator</li>
-                                                                        <li>Frontend: HTML, CSS, JavaScript</li>
-                                                                        <li>Analytics: Google Analytics, Mouseflow,
-                                                                            Clarity</li>
-                                                                        <li>CMS: Umbraco, WebAdmin, Episerver</li>
-                                                                        <li>Collaboration Tools: Slack, Teams, Jira,
-                                                                            Google Suite</li>
-                                                                        <li>Other: SQL, Version Control, Cloud Platforms
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                            <hr class="my-5" />
-                                                            <p class="subtext mt-4 mb-5 small"><span>Want to work
-                                                                    together? Reach
-                                                                    out to me via <a
-                                                                        href="mailto:kara_schmidt@icloud.com"><strong>email</strong></a>
-                                                                    or find me on <a
-                                                                        href="https://www.linkedin.com/in/karajsch"><strong>LinkedIn</strong></a>.</span>
-                                                            </p>
-                                                        </header>
-                                                    </div>
-                                                </section>
-                                            </div>
-                                            <div class="bottom">
-                                                <h2>Send a <a href="mailto:kara_schmidt@icloud.com">message</a></h2>
-                                                <nav class="nav navbar nav-tabs navbar-expand-lg navbar-light">
-
-                                                    <ul class="navbar-nav"
-                                                        style="flex-direction: column; text-align: center;justify-items:flex-end;">
-                                                        <li>
-                                                            <a class="text-uppercase" data-toggle="tab"
-                                                                href="#projects">Projects</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="text-uppercase" data-toggle="tab"
-                                                                href="#about">About</a></li>
-                                                        </li>
-                                                        <li>
-                                                            <a class="linkedin"
-                                                                href="https://www.linkedin.com/in/karajsch">
-                                                                <i class="fa fa-linkedin-square" aria-hidden="true">
-                                                                </i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                                <div class="toggle-wrapper">
-                                                    <label class="switch">
-                                                        <input type="checkbox" id="themeSlider">
-                                                        <span class="slider"></span>
-                                                    </label>
-                                                    <span><i class="fa fa-moon-o" aria-hidden="true"></i></span>
-                                                </div>
-                                            </div>
-    </section>
-
-    <script>
-        $(document).ready(function () {
-            const resetNavAndScroll = () => {
-                $('.nav li').removeClass('active');
-                $("body").scrollTop(0);
-            };
-
-            $('li > a.navbar-brand, .resCallout button, .artCallout button').click(resetNavAndScroll);
-            $(".bottom li>a").on("click", () => $("body").scrollTop(0));
-        });
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
-    <script>
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal");
-
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 200;
-
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
-                } else {
-                    reveals[i].classList.remove("active");
-                }
-            }
-        }
-
-        const themeSlider = document.getElementById('themeSlider');
-        const mainSection = document.getElementById('mainSection');
-
-        themeSlider.addEventListener('change', () => {
-            mainSection.classList.toggle('dark-theme', themeSlider.checked);
-        });
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
-</html>
+
+
+</body></html>
