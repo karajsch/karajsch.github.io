@@ -245,32 +245,19 @@
             background: #f6fbf8;
         }
 
-        .test-takeaways ul,
-        .case-boxes>div.outcomes ul,
-        .howiwork ul {
-            list-style: none;
-            padding: 0;
-            margin-left: 20px;
-        }
-
         ul.process-steps {
             list-style: none;
         }
 
-        .test-takeaways li,
-        .case-boxes>div.outcomes li,
-        .howiwork li {
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
+        .test-takeaways li::marker,
+        .case-boxes>div.outcomes li::marker {
+            color: #00a14e;
+            font-size: 18px;
         }
 
-        .test-takeaways li::before,
-        .case-boxes>div.outcomes li::before,
-        .howiwork li::before {
-            content: "✴";
-            font-size: 12px;
-            margin-top: 4px;
+        .test-takeaways ul,
+        .case-boxes>div.outcomes ul {
+            list-style-type: circle;
         }
 
         .whatido-row {
@@ -597,6 +584,11 @@
             .nav-links a {
                 padding: 16px 30px;
                 border-top: 1px solid #f0f0f0;
+            }
+
+            .contact-row a {
+                font-size: 1.25rem;
+                margin-bottom: 10px;
             }
         }
     </style>
