@@ -6,10 +6,9 @@
         content="Portfolio of Kara Schmidt - Front-End Designer specializing in ecommerce, design systems, and conversion-focused web experiences.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Kara Schmidt — Front-End Designer">
-<meta property="og:description" content="E-commerce UX, design systems, and conversion-focused web experiences.">
-<meta property="og:image" content="/preview-link/meta-card.png">
-<meta property="og:url" content="https://karajsch.github.io">
-<meta property="og:type" content="website">
+    <meta property="og:description" content="E-commerce UX, design systems, and conversion-focused web experiences.">
+    <meta property="og:image" content="/preview-link/meta-card.png">
+    <meta property="og:url" content="https://karajsch.github.io">
     <title>KARA SCHMIDT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -359,18 +358,18 @@
         .case-image img {
             width: 100%;
             margin: auto;
+            max-width: 450px;
             border: 1px solid #eee;
         }
 
         .case-image {
             text-align: center;
-            padding: 2rem;
         }
 
         .hp,
         .events {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             justify-items: center;
             align-items: start;
             gap: 20px;
