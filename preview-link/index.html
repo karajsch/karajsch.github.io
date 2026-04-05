@@ -377,6 +377,8 @@
             justify-items: center;
             align-items: start;
             gap: 20px;
+            background: #f9faf9;
+            padding: 20px;
             margin: 2rem auto;
         }
 
@@ -483,7 +485,7 @@
             padding-left: 20px;
             padding-right: 20px;
             border-left: 4px solid #00a14e;
-            min-height:50px;
+            min-height: 50px;
         }
 
         .howiwork li::before {
@@ -551,7 +553,7 @@
         @media (max-width: 768px) {
 
             header {
-                height: 100vh;
+                min-height: 80vh;
             }
 
             .hero-content {
@@ -564,6 +566,16 @@
 
             h1 {
                 font-size: 4rem;
+            }
+
+            .case-header,
+            .tests-row,
+            .case-boxes,
+            .insight-row,
+            .hp,
+            .events,
+            .process-row {
+                grid-template-columns: 1fr;
             }
 
             .nav-toggle {
@@ -666,9 +678,10 @@
             <h2 class="fade-in">Case Studies</h2>
             <!-- Case Study 1 -->
             <article class="case fade-in">
-                <h3>Building and Running an E-commerce Experimentation Practice</h3>
+
                 <div class="case-header">
                     <div>
+                        <h3>Building and Running an E-commerce Experimentation Practice</h3>
                         <p class="case-meta">
                             E-commerce UX • A/B Testing • CRO Strategy
                         </p>
@@ -849,6 +862,7 @@
             <article class="case fade-in">
 
                 <div class="case-header">
+
                     <div>
                         <h3>Refocusing the Homepage Around User Intent</h3>
                         <h3 class="case-subhead">Simplifying a marketing-heavy surface into a functional entry point
