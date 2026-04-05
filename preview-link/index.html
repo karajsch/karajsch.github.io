@@ -184,6 +184,10 @@
             padding: 16px clamp(20px, 6vw, 120px);
         }
 
+        i.fa.fa-bars {
+            color: #000 !important
+        }
+
         .nav-links {
             display: flex;
             gap: 30px;
@@ -280,7 +284,7 @@
         .case-boxes,
         .insight-row {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             gap: 20px;
         }
 
@@ -369,12 +373,10 @@
         .hp,
         .events {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             justify-items: center;
             align-items: start;
             gap: 20px;
-            background: #f9faf9;
-            padding: 20px;
             margin: 2rem auto;
         }
 
@@ -447,7 +449,7 @@
 
         .process-row {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             gap: 20px
         }
 
@@ -481,6 +483,7 @@
             padding-left: 20px;
             padding-right: 20px;
             border-left: 4px solid #00a14e;
+            min-height:50px;
         }
 
         .howiwork li::before {
@@ -546,6 +549,22 @@
         }
 
         @media (max-width: 768px) {
+
+            header {
+                height: 100vh;
+            }
+
+            .hero-content {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                flex-wrap: nowrap;
+                justify-content: center;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
 
             .nav-toggle {
                 display: block;
